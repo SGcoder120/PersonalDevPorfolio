@@ -1,7 +1,3 @@
-// import {Profiler, useState} from 'react';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
-
 import About from './pages/About.tsx';
 import FunStuff from './pages/FunStuff.tsx';
 import Home from './pages/Home.tsx';
@@ -23,4 +19,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

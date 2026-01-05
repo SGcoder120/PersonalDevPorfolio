@@ -1,6 +1,6 @@
 .nav-container {
     position: fixed;
-    top: 0%;
+    top: -2.5%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
@@ -8,14 +8,13 @@
 
 .nav-menu {
     display: flex;
-    gap: 28px;
-    padding: 14px 28px;
+    gap: 30px;
+    padding: 15px 30px;
     list-style: none;
 
     background: rgba(25, 25, 25, 0.85);
     backdrop-filter: blur(10px);
-    border-radius: 999px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    border-radius: 0px 0px 20px 20px;
 }
 
 .nav-menu li a {
@@ -37,4 +36,5 @@
 .nav-menu li a.active {
     background: rgba(255, 255, 255, 0.14);
     color: #ffffff;
+    font-weight: bold;
 }

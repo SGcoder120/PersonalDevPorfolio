@@ -1,0 +1,37 @@
+.home-page {
+    place-items: center;
+}
+
+.token-middle {
+    width: 5%;
+    height: 5%;
+}
+
+.left-gear {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: auto;
+}
+
+.right-gear {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: auto;
+}
+
+.text-info-1 {
+    width: 40%;
+    font-size: 155%;
+    font-weight: bold;
+}
+
+.text-info-2 {
+    width: 30%;
+    font-size: 125%;
+}
