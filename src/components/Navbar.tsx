@@ -38,7 +38,7 @@ const Navbar = () => {
                         to="/fun"
                         className={location.pathname === "/fun" ? "active" : ""}
                     >
-                        Fun Stuff
+                        Fun
                     </Link>
                 </li>
             </ul>

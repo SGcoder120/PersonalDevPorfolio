@@ -1,7 +1,6 @@
-import { useState } from "react";
 import Navbar from "../components/Navbar.tsx";
 
-function FunStuff() {
+function Fun() {
     return (
         <div>
             <Navbar />
@@ -9,4 +8,4 @@ function FunStuff() {
     );
 }
 
-export default FunStuff
+export default Fun

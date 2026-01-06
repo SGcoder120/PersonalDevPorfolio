@@ -1,5 +1,5 @@
 import About from './pages/About.tsx';
-import FunStuff from './pages/FunStuff.tsx';
+import Fun from './pages/Fun.tsx';
 import Home from './pages/Home.tsx';
 import Projects from './pages/Projects.tsx';
 
@@ -12,7 +12,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/fun" element={<FunStuff />} />
+            <Route path="/fun" element={<Fun />} />
             <Route path="/projects" element={<Projects />} />
         </Routes>
     </BrowserRouter>

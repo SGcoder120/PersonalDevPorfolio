@@ -35,3 +35,20 @@
     width: 30%;
     font-size: 125%;
 }
+
+@media (max-width: 800px) {
+    .token-middle {
+        width: 150px;
+        max-width: 60%;
+    }
+
+    .left-gear, .right-gear {
+        width: 60px;
+        top: 10%;
+    }
+
+    .text-info-1, .text-info-2 {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
