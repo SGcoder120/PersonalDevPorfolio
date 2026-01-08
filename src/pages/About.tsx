@@ -5,8 +5,8 @@ import Email from "../assets/email.svg";
 import Github from "../assets/github.svg";
 import Linkedin from "../assets/linkedin.svg";
 import LeftGear from "../assets/leftgear.svg";
-import '../styles/About.css';
 import ProfilePicture from '../assets/profilePicture.jpg';
+import '../styles/About.css';
 
 function About() {
     return (
