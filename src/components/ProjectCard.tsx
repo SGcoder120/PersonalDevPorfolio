@@ -1,4 +1,5 @@
-import "../styles/Project.css";
+import "../styles/ProjectCard.css";
+import LinkIcon from "../assets/link.svg";
 
 type ProjectProps = {
     title: string;
@@ -9,13 +10,13 @@ type ProjectProps = {
     project_link: string;
 };
 
-function Project({
-     title,
-     description,
-     image_url,
-     svg,
-     src_link,
-     project_link,
+function ProjectCard({
+    title,
+    description,
+    image_url,
+    svg,
+    src_link,
+    project_link,
 }: ProjectProps) {
     return (
         <div className="project-frame">
@@ -31,22 +32,22 @@ function Project({
                     href={project_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="project-cta"
+                    className="project-demo"
                 >
-                    Check it out →
+                    <img src={LinkIcon} alt="Link" className="project-icon-demo"/>
                 </a>
 
                 <a
                     href={src_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="project-icon"
+                    className="project-source"
                 >
-                    <img src={svg} />
+                    <img src={svg} alt="GitHub" className="project-icon-source" />
                 </a>
             </div>
         </div>
     );
 }
 
-export default Project;
+export default ProjectCard;
