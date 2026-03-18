@@ -3,8 +3,11 @@ import "../styles/Fun.css";
 
 function Fun() {
     return (
-        <div>
+        <div className="fun-page">
             <Navbar />
+            <div className="main-content">
+                <p>To be continued...</p>
+            </div>
         </div>
     );
 }
