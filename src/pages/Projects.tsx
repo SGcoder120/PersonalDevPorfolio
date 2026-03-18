@@ -11,7 +11,7 @@ import "../styles/Projects.css";
 
 function Projects() {
     return (
-        <div>
+        <div className="projects-page">
             <Navbar />
             <img src={RightGear} className={"right-gear-left"} />
             <p className={"info-text-project"}>Here are some projects I have contributed to and/or made over the past few years. Enjoy!</p>
