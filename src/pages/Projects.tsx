@@ -4,7 +4,8 @@ import GithubIcon from "../assets/github.svg";
 import ToyotaPreview from "../assets/toyotaPreview.png";
 import RightGear from "../assets/rightgear.svg";
 import utdClubsImg from "../assets/utdClubsImg.png";
-import quickNotesImg from "../assets/quickNotesImg.png";
+import livelyApp from "../assets/livelyApp.png";
+import stageStormImg from "../assets/stageStorm.png";
 // import FigmaIcon from "../assets/figma.svg";
 import "../styles/Projects.css";
 
@@ -12,11 +13,12 @@ function Projects() {
     return (
         <div>
             <Navbar />
+            <img src={RightGear} className={"right-gear-left"} />
             <p className={"info-text-project"}>Here are some projects I have contributed to and/or made over the past few years. Enjoy!</p>
             <section className={"projects-grid"}>
                 <ProjectCard
                     title="UTD Clubs Platform"
-                    description="A centralized web platform for discovering student organizations at UT Dallas. The project streamlines club exploration by providing searchable listings, structured club information, and an intuitive interface for students to connect with campus communities."
+                    description="A centralized web platform that streamlines club exploration by providing searchable listings, structured club information, and an intuitive interface for students to connect with campus communities."
                     image_url={utdClubsImg}
                     svg={GithubIcon}
                     src_link="https://github.com/UTDNebula/utd-clubs"
@@ -31,15 +33,22 @@ function Projects() {
                     project_link={"https://toyota-vehicle-finder.vercel.app/"}
                 />
                 <ProjectCard
-                    title="QuickNotes"
-                    description="A lightweight note-taking application designed for capturing ideas quickly. Features include fast note creation, simple organization, and an interface focused on speed and minimal distraction."
-                    image_url={quickNotesImg}
+                    title="Lively"
+                    description="Lively is a concert discovery web app for finding what concerts are happening around the area."
+                    image_url={livelyApp}
                     svg={GithubIcon}
-                    src_link="https://github.com/SGcoder120/QuickNotes"
-                    project_link="https://github.com/SGcoder120/QuickNotes"
+                    src_link="https://github.com/SGcoder120/lively"
+                    project_link="https://github.com/SGcoder120/lively"
+                />
+                <ProjectCard
+                    title="Stage Storm"
+                    description="Stage Storm is a locations-and-events app where users can browse venues, filter/sort events, and see event details with a live countdown timer."
+                    image_url={stageStormImg}
+                    svg={GithubIcon}
+                    src_link="https://github.com/SGcoder120/Stage-Storm"
+                    project_link="https://github.com/SGcoder120/Stage-Storm"
                 />
             </section>
-            <img src={RightGear} className={"right-gear-left"} />
         </div>
     );
 }
