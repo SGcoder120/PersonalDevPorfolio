@@ -1,10 +1,11 @@
 import Navbar from "../components/Navbar.tsx";
 import ProjectCard from "../components/ProjectCard.tsx";
 import GithubIcon from "../assets/github.svg";
-import FigmaIcon from "../assets/figma.svg";
 import ToyotaPreview from "../assets/toyotaPreview.png";
 import RightGear from "../assets/rightgear.svg";
 import utdClubsImg from "../assets/utdClubsImg.png";
+import quickNotesImg from "../assets/quickNotesImg.png";
+// import FigmaIcon from "../assets/figma.svg";
 import "../styles/Projects.css";
 
 function Projects() {
@@ -30,17 +31,17 @@ function Projects() {
                     project_link={"https://toyota-vehicle-finder.vercel.app/"}
                 />
                 <ProjectCard
-                    title={"Toyota Vehicle Finder"}
-                    description={"Toyota Vehicle Finder is a collaborative software project focused on building a scalable, modular application using modern development practices and version control workflows."}
-                    image_url={ToyotaPreview}
+                    title="QuickNotes"
+                    description="A lightweight note-taking application designed for capturing ideas quickly. Features include fast note creation, simple organization, and an interface focused on speed and minimal distraction."
+                    image_url={quickNotesImg}
                     svg={GithubIcon}
-                    src_link={"https://github.com/SGcoder120/Toyota-Vehicle-Finder"}
-                    project_link={"https://toyota-vehicle-finder.vercel.app/"}
-                />  
+                    src_link="https://github.com/SGcoder120/QuickNotes"
+                    project_link="https://github.com/SGcoder120/QuickNotes"
+                />
             </section>
             <img src={RightGear} className={"right-gear-left"} />
         </div>
     );
 }
 
-export default Projects
+export default Projects;

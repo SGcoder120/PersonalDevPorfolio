@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar.tsx";
+import "../styles/Fun.css";
 
 function Fun() {
     return (
@@ -8,4 +9,4 @@ function Fun() {
     );
 }
 
-export default Fun
+export default Fun;
