@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar.tsx";
-import Profile from "../assets/profile.svg";
+// import Profile from "../assets/profile.svg";
 import Discord from "../assets/discord.svg";
 import Email from "../assets/email.svg";
 import Github from "../assets/github.svg";
